@@ -3,7 +3,7 @@
     <div class="wrap2" ref="snowfallContainer"></div>
     <div class="wrap">
       <div class="top-content">
-        <div class="content">老王与狗子的纪念日</div>
+        <div class="content t-center">老王与狗子的纪念日</div>
         <div class="content">
           加微信：2024年6月17日，距今
           <span class="color-green">{{ a }}</span>
@@ -131,10 +131,17 @@ const toNext = (url: string) => {
     .top-content {
       padding: 20px 15px;
       color: #ffffff;
+      font-size: 14px;
+      .t-center {
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+      }
       .content {
         line-height: 50px;
         .color-green {
           color: greenyellow;
+          font-size: 16px;
         }
       }
     }
